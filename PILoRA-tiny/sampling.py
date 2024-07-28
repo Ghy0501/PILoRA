@@ -105,7 +105,7 @@ def distribution_based_label_skew(dataset, num_users, beta=0.1, min_require_size
     :param alpha: Concentration parameter for the Dirichlet distribution (default is 0.5)
     :return: A dictionary where each key represents a user's index and the corresponding value is an array of sample indices
     """
-    N = len(dataset)  # 数据集样本总数
+    N = len(dataset)  
     y_train = np.array(dataset.labels)
     net_dataidx_map = {}
     min_size = 0
