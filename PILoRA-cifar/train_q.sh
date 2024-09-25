@@ -1,0 +1,3 @@
+python3 federated_main.py --model=PILoRA_alpha_6 --dataset=cifar100 --iid=0 --centers_lr=2e-3 --encoders_lr=1e-5 --epochs=30 --gpu 1 --task_num 9 --fg_nc 10 --total_classes 100 --num_users 30 --client_local 10 --niid_type Q --alpha 6 --local_bs=64
+python3 federated_main.py --model=PILoRA_alpha_4 --dataset=cifar100 --iid=0 --centers_lr=2e-3 --encoders_lr=1e-5 --epochs=30 --gpu 1 --task_num 9 --fg_nc 10 --total_classes 100 --num_users 30 --client_local 10 --niid_type Q --alpha 4 --local_bs=64
+python3 federated_main.py --model=PILoRA_alpha_2 --dataset=cifar100 --iid=0 --centers_lr=2e-3 --encoders_lr=1e-5 --epochs=30 --gpu 1 --task_num 9 --fg_nc 10 --total_classes 100 --num_users 30 --client_local 10 --niid_type Q --alpha 2 --local_bs=64
